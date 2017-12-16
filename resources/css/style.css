@@ -1,0 +1,64 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position:fixed;
+  width: 100%;
+  top:0px;
+}
+
+.logo {
+   height: 50px;
+   margin-left: 10px;
+   margin-right: auto;
+ }
+
+.navigation li{
+  list-style: none;
+  display: inline-block;
+  text-decoration: underline;
+  padding:10px;
+  margin-right: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+.content {
+  padding-top: 69px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  background-position: center;
+}
+
+.headertext {
+  background-color: black;
+  width: 100%;
+}
+
+.featured {
+  padding-top: 50px;
+  justify-content: center;
+}
